@@ -1,0 +1,272 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@300;400;500;600;700&display=swap');
+/*common css start*/
+:root{
+	--seagreen:#054C73;
+	--black:#333333;
+	--ash:#666666;
+	--white:#FFFFFF;
+	--mon:"Montserrat", sans-serif;
+}
+body{
+	padding-top: 125px;
+	font-family:var(--mon) ;
+	font-size: 16px;
+	font-weight: 400;
+	color: var(ash);
+}
+/*common css start*/
+/*header start*/
+header{
+	margin: 30px 0;
+
+}
+h1{
+	font-size: 34px;
+	font-weight: 700;
+	color: var(--seagreen);
+}
+.menu ul li a{
+	margin: 0 15px;
+	font-size: 20px;
+	font-weight: 600;
+	color: var(--seagreen) !important;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: var(--seagreen) !important;
+}
+/*header end*/
+
+
+/*banner start*/
+.b_wrap{
+}
+.b_img{ 
+	right: 10%;
+      position: relative; 
+}
+.b_text{
+	left: 61%;
+	top: 36%;
+	width: 500px !important;
+	background-color: #DFE9F4;
+	position: absolute;
+	border-radius: 20px;
+}
+.b_p1{
+	margin: 30px 0 40px 40px;
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--black);
+	letter-spacing: 3px;
+}
+.b_h1{
+	margin: 30px 45px 0 40px;
+	font-size:52px ;
+	font-weight: 700;
+	color: var(--seagreen);
+}
+.b_p2{
+	margin: 20px 55px 30px 40px;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--black);
+	line-height: 39px;
+}
+.btn_cm{
+	
+	background-color:var(--seagreen);
+	border-radius: 33px;
+	font-family: var(--mon);
+	font-size: 16px;
+	color: var(--white);
+	text-transform: uppercase;
+}
+.btn_search{
+	margin: 30px 0 40px 40px;
+	padding: 20px 35px !important;
+}
+/*banner end*/
+/*services start*/
+.services{
+	padding: 30px 10px;
+	margin: 50px 0 100px;
+	background-color: #F2F5FF;
+}
+.sin_s{
+	padding: 0 0 0 60px;
+}
+.s_icon{
+	text-align: right;
+       margin-top: 20px;
+}
+.s_icon i{
+	font-size:28px;
+	color: #111111;
+}
+.s_text{}
+.sh1{
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--black);
+	line-height: 29.26px;
+}
+.sp1{
+	font-size:16px ;
+	font-weight: 400;
+	color: var(--ash);
+}
+
+
+/*services end*/
+
+/*collection start*/
+.collection{}
+.cmn_h1{
+	font-size: 32px;
+	font-weight: 700;
+	color: var(--black);
+	line-height: 39.01px;
+
+}
+.cmn_p{
+	color: var(--ash);
+	margin-top:20px ;
+}
+.s_img{
+	margin: 60px 0;
+}
+
+/*collection end*/
+/*beautify start*/
+.beautify{
+	margin-bottom: 60px;
+	background-color:#F2F5FF;
+}
+.bu_text{
+	margin-top: 275px;
+}
+.bp1{
+      line-height: 32px;
+	margin-right: 260px;
+}
+.bu_img{
+	padding: 60px 0;
+	text-align: right;
+}
+
+/*beautify end*/
+/*products start*/
+.products{
+
+}
+.ph2{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 24px;
+	font-weight: 600;
+	line-height:29.26px;
+	color: var(--black);
+}
+
+/*products end*/
+/*works*/
+.works{
+	margin-top: 50px;
+}
+.s_img{}
+.p_text{}
+.p_h2{
+	margin: 30px 0 10px 0;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 29.26px;
+	color: var(--black);
+}
+.p_p1{
+	margin-right: 20px;
+	font-size: 18px;
+	color: var(--ash);
+	line-height: 30px;
+}
+/*contact start*/
+.contact{
+	padding: 60px 0;
+	background-color: #F2F5FF;
+}
+.join{
+	margin-right: 30px;
+	font-size: 20px;
+	line-height: 39px;
+}
+
+.c_form{
+	margin: 50px 75px 60px 0px;
+}
+.c_input:focus {
+	box-shadow: none;
+}
+.fr_b{
+	border-radius: 5px;
+	border-color: 1px var(--seagreen) !important;
+
+}
+.c_input{
+	padding: 25px 0 25px 25px;
+	height: 70px;
+	font-family: var(--mon);
+	color: var(--white);
+}
+.c_submit{
+	border-radius: 5px;
+	width: 140px;
+	height: 70px !important;
+	background-color:var(--seagreen) !important;
+	font-family:var(--mon);
+	font-size: 16px;
+	font-weight: 700;
+	color:var(--white) !important;
+	
+}
+
+
+/*contact end*/
+/*footer start*/
+footer{
+	background-color: var(--seagreen);
+	padding: 60px 0 90px;
+}
+.f_h1{
+     font-size: 24px;
+	font-weight: 700;
+	color: var(--white)
+
+}
+.f1_h1{
+	padding-bottom: 22px;
+	font-size: 24px;
+	font-weight: 700;
+	color: var(--white);
+}
+.f_p1{
+	padding: 10px 0 20px;
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--ash);
+	line-height: 35px;
+}
+.f_h2{
+	font-size: 24px;
+	font-weight: 700;
+	color: var(--white)
+}
+
+
+
+/*footer end*/
+
+
+
